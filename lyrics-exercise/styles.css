@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    background-color: #ffffff; 
+    color: #ffffff; 
+    font-family: 'Poppins', sans-serif; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    overflow: hidden; 
+}
+
+.container {
+    max-width: 500px;
+    width: 90%; 
+    padding: 40px;
+    background: rgb(71, 71, 71); 
+    border: 5px solid #ffafb0; 
+    border-radius: 10px; 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px); 
+    overflow: hidden; 
+}
+
+.title {
+    color: #ffafb0; 
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 600;
+    margin: 0;
+}
+
+.artist {
+    color: #c9c9c9; 
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.lyrics {
+    font-size: 1.2em;
+    line-height: 1.6;
+    max-height: 625px;
+    overflow-y: auto; 
+    padding-right: 10px; 
+    margin-right: -10px; 
+}
+
+.lyrics p {
+    margin: 6px 0; 
+    color: #ffffff; 
+    text-align: center; 
+    transition: color 0.3s ease;
+}
+
+.lyrics-group {
+    margin-bottom: 50px;
+}
+
+.lyrics p:hover {
+    color: #ffafb0; 
+}
