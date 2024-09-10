@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Ghostbusters';
+    src: url('GHOSTBUS.TTF') format('truetype');
+}
+body {
+    background-color: #1e1e1e; 
+    color: #fff; 
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #161616; 
+    border: 2px solid #e00000; 
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+    font-family: 'Ghostbusters';
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 3.8em;
+}
+
+.subtitle {
+    font-family: 'Ghostbusters';
+    color: #fff;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.quote-group {
+    margin-left: 22px;
+    margin-bottom: 60px;
+}
+
+.quote {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.character {
+    font-family: 'GHOSTBUS';
+    font-weight: bold;
+    color: #ff0000; 
+}
