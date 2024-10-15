@@ -1,0 +1,48 @@
+body {
+    width: 800px;
+    margin: auto;
+    @media (min-width: 640px) {
+        background-color: #eaf6ff;
+    }
+}
+
+h1 {
+    @media (max-width: 500px) {
+        font-size: 1.5rem;
+    }
+    @media (min-width: 640px) {
+        font-size: 2.5rem;
+    }
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-left: 0px;
+}
+
+li {
+    border: 2px solid #000;
+    flex: auto;
+}
+
+aside {
+    width: 170px;
+    margin: 10px;
+    font-size: 0.8rem;
+}
+
+#stretchable-grid-items li {
+    width: 100%;
+    @media (min-width: 480px) {
+        width: 50%;
+    }
+    @media (min-width: 640px) {
+        width: 25%;
+    }
+}
+
+#stretchable-grid-items aside {
+    width: auto;
+}
