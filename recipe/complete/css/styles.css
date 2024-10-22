@@ -1,0 +1,278 @@
+html{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: rgb(81, 81, 81);
+}
+
+body {
+    margin: 0px;
+}
+
+p {
+    margin: 0px;
+}
+
+a {
+    color: rgb(81, 81, 81);
+    color: white;
+}
+
+b {
+    color: black;
+}
+
+.Glance {
+    font-size: 0.65em;
+    color: black;
+    font-weight: bold;
+    padding: 0px;
+    display: flex;
+    appearance: none;
+    list-style: none;
+    margin: auto;
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
+    width: 90%;
+    @media (min-width: 450px) {
+        font-size: 0.8em;
+    }
+}
+
+.Glance ul {
+    margin: auto;
+}
+
+.Glance li {
+    margin: auto;
+}
+
+header {
+    height: 200px;
+    background-image: url('../imgs/Blondies.jpg');
+    background-size: cover;
+    background-position: center center;
+    /* transform: scaleX(-1); */
+    @media (min-width: 500px) {
+        height: 250px;
+    }
+    @media (min-width: 800px) {
+        height: 300px;
+    }
+    
+}
+
+.title {
+    padding-top: 0.75em;
+    color: white;
+    padding-left: 0px;
+    /* transform: scaleX(-1); */
+    width: 90%;
+    margin: auto;
+}
+
+h2 {
+    margin: 0px;
+    margin-top: 0.5em;
+    font-size: 2em;
+    @media (min-width: 500px) {
+       font-size: 2.5em;
+    }
+    @media (min-width: 800px) {
+        font-size: 3.5em;
+    }
+}
+
+h1{
+    margin: 0px;
+    font-size: 5em;
+    line-height: 85%;
+    @media (min-width: 500px) {
+        font-size: 6.5em;
+    }
+    @media (min-width: 800px) {
+         font-size: 8em;
+    }
+}
+
+.gf {
+    font-size: 0.5em;
+}
+
+div {
+    width: 90%;
+    margin: auto;
+}
+
+sub {
+    font-size: 0.6em;
+    font-weight: bold;
+    color: rgb(226, 166, 0);
+}
+
+sub p {
+    margin-top: 7.2px;
+    @media (min-width: 500px) {
+        padding-top: 2px;
+        font-size: 14px;
+   }
+}
+
+.ingredients {
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.ingredients ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin: auto;
+    margin-top: 7px;
+    margin-bottom: 0px;
+    @media (min-width: 500px) {
+        margin-bottom: 20px;
+    }
+}
+
+.ingredients img {
+    width: 75px;
+    width: 100%;
+    height: 75px;
+    object-fit: cover;
+    object-position: center center;
+    @media (min-width: 800px) {
+        height: 100px;
+    }
+    @media (min-width: 1200px) {
+        height: 125px;
+    }
+}
+
+.image {
+    width: 25%;
+    @media (min-width: 450px) {
+        width: 34%;
+    }
+    @media (min-width: 500px) {
+        width: 12.5%;
+    }
+    @media (min-width: 800px) {
+        width: 17%;
+    }
+    @media (min-width: 1200px) {
+        /* width: 25%; */
+        /* height: 150px; */
+    }
+}
+
+.elem {
+    width: 75%;
+    @media (min-width: 450px) {
+        width: 66%;
+    }
+    @media (min-width: 500px) {
+        width: 37.5%;
+    }
+    @media (min-width: 800px) {
+        width: 33%;
+    }
+    @media (min-width: 1200px) {
+        font-size: 20px;
+    }
+}
+
+aside {
+    padding: 5%;
+    padding-top: 0px;
+    /* font-weight: bold; */
+}
+
+.instructions::before {
+    content: "";
+    display: block;
+    background-color: rgb(226, 166, 0);
+    width: 90%;
+    height: 2px;
+    position: absolute;
+}
+
+h3 {
+    margin: 0px;
+    font-size: 2em;
+    color: black;
+    @media (min-width: 500px) {
+        font-size: 2.5em;
+    }
+     @media (min-width: 800px) {
+        font-size: 3.5em;
+    }
+}
+
+.instructions {
+    width: 100%;
+}
+
+.instructions p {
+    line-height: 150%;
+    margin-top: 10px;
+}
+
+.instructions img {
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* border: 3px solid rgb(226, 166, 0); */
+    @media (min-width: 500px) {
+        float: right;
+        margin-top: 65px;
+        margin-left: 20px;
+        width: 25%;
+        height: 525px;
+    }
+    @media (min-width: 600px) {
+        height: 500px;
+    }
+    @media (min-width: 700px) {
+        width: 33%;
+    }
+    @media (min-width: 800px) {
+        height: 450px;
+        margin-top: 80px;
+    }
+    @media (min-width: 900px) {
+        height: 400px;
+    }
+    @media (min-width: 1100px) {
+        height: 300px;
+    }
+}
+
+.final {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    object-position: center top;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    /* border: 3px solid rgb(226, 166, 0); */
+}
+
+footer {
+    color: white;
+    background-color: rgb(226, 166, 0);
+}
+
+footer div {
+    font-size: 0.75em;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
