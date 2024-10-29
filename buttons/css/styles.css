@@ -1,0 +1,263 @@
+a#btn_coca-cola {
+    margin: auto;
+    display: inline-block;
+    text-decoration: none;
+
+    padding-top: 50px;
+    padding-bottom: 55px;
+    width: 150px;
+    border-radius: 75px;
+    background-color: red;
+    margin-top: 50px;
+    
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: "Norican", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a#btn_coca-cola:hover {
+    background-color: black;
+}
+
+a#btn_apple {
+    margin: auto;
+    display: inline-block;
+    text-decoration: none;
+
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    background-color: white;
+    margin-top: 50px;
+
+    color: rgb(24, 24, 24);
+    transition: background-color 0.5s, color 1s;
+}
+
+a#btn_apple i{
+    font-size: 100px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+a#btn_apple:hover {
+    background-color: rgb(24, 24, 24);
+    color: white;
+}
+
+a#btn_nike {
+    margin: auto;
+    display: inline-block;
+    text-decoration: none;
+
+    margin-top: 80px;
+    padding: 20px 50px 20px 50px;
+    border-radius: 50px;
+    background-color: greenyellow;
+
+    font-size: 40px;
+    font-family: "Geologica", sans-serif;
+    font-weight: 900;
+    color: black;
+
+    transition: background-color 0.5s;
+}
+
+a#btn_nike:hover {
+    background-color: white;
+    border: 10px;
+    border-color: greenyellow;
+    border-style: solid;
+    border-width: 5px;
+    margin-top: 75px;
+    background-color: black;
+    color: greenyellow;
+    text-shadow: 0 0 5px greenyellow;
+}
+
+a#btn_instagram {
+    margin: auto;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 75px;
+
+    font-size: 100px;
+    color: #fc01d7;
+
+    padding: 8px 15px 8px 15px;
+}
+
+a#btn_instagram:hover{
+    padding: 8px 15px 8px 15px;
+    border-radius: 30px;
+    
+    background: linear-gradient(135deg, #7c0cfe 0%,#fc01d7 34%,#fe1d30 67%,#ffc500 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+a#btn_tesla {
+    margin: auto;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 100px;
+    
+    font-family: "Bruno Ace", sans-serif;
+    font-size: 45px;
+    color: black;
+}
+
+a#btn_tesla:hover {
+    background: linear-gradient(to bottom, #ffffff 0%,#e50b0b 78%);-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+a#btn_facebook {
+    margin: auto;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 75px;
+
+    
+    color: white;
+    font-size: 23px;
+    font-style: "Roboto", sans-serif;
+    font-weight: 400;
+
+    transition: color 2s;
+}
+
+.fa-facebook {
+    font-size: 100px;
+    color: #0865ff;
+}
+
+a#btn_facebook:hover {
+    color: 0865ff;
+}
+
+.army {
+    position: relative;
+}
+
+a#btn_army {
+    margin: auto;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 50px;
+    color: rgb(24, 24, 24);
+    font-size: 40px;
+    font-family: "REM", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    padding: 10px 0px 0px 10px;
+    /* background-color: #ffc500; */
+
+    transition: transform 1s;
+}
+
+.fa-jet-fighter {
+    position: relative;
+    left: -200px;
+    transition: transform 1s;
+    color: #ffc500;
+}
+
+.fa-star {
+    color: #ffc500;
+}
+
+a#btn_army:hover .fa-jet-fighter{
+    position: relative;
+    transform: translate(400px, 0%)
+}
+
+a#btn_cn {
+    margin: auto;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 80px;
+    padding: 0px 5px 0px 5px;
+    line-height: 90px;
+    background: linear-gradient(to right, #000000 50%,#ffffff 50%);
+    font-size: 100px;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    color: black;
+    border-style: solid;
+    border-color: rgb(0, 0, 180);
+    border-width: 5px;
+}
+
+a#btn_cn:hover {
+    color: white;
+    background: linear-gradient(to left, #000000 50%,#ffffff 50%);
+}
+
+.c {
+    color: white;
+}
+
+a#btn_cn:hover .c {
+    color: black;
+}
+
+.tny {
+    position: relative;
+}
+
+a#btn_TNY {
+    margin: auto;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 95px;
+    font-size: 15px;
+    font-family: "Sorts Mill Goudy", serif;
+    font-weight: 500;
+    color: black;
+}
+
+.ny {
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.fa-newspaper {
+    position: relative;
+    font-size: 30px;
+    color: white;
+    transition: color 1s, transform 1s;
+    transform: translate(0px, 10px)
+}
+
+a#btn_TNY:hover .fa-newspaper {
+    font-size: 30px;
+    color: black;
+    transform: translate(0px, 0px);
+}
+
+a#btn_on {
+    margin: auto;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 100px;
+    font-size: 40px;
+    color: #003764;
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-radius: 70px;
+    width: 100%;
+    transition: background-color 0.25s, color 0.25s;
+}
+
+a#btn_on:hover {
+    background-color: #003764;
+    color: white;
+}
